@@ -1,0 +1,42 @@
+.errorText {
+  color: #fff;
+}
+.detailsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0% 5%;
+}
+.poster {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  width: 70%;
+}
+.basicInfo {
+  margin-top: 20px;
+}
+.left {
+  width: 40%;
+}
+.right {
+  width: 50%;
+}
+.basicInfo {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+}
+.right > div {
+  margin-bottom: 20px;
+}
+.right > div > p {
+  font-size: 14px;
+}
+.moreInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.moreInfo p {
+  font-size: 14px;
+}
